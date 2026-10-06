@@ -19,8 +19,15 @@ npm run dev
 ```
 If you rename the repo, update `base` in `vite.config.ts` and the favicon path in `index.html`.
 
+## Engine
+`src/engine/` is the pure, seeded game engine (no UI imports).
+```
+npm test   # engine tests
+npm run sim   # balance simulation over 1000 seeded games
+```
+
 ## Next
-Step 2: the deterministic game engine in `src/engine/`.
+Step 4: borrow/repay screen, tender offers, Deals tab, rival AI. (Step 3 core UI is done.)
 
 ## For AI assistants
 Project memory lives in `CLAUDE.md` and `docs/ai/`. Read those first, and update them at the end of every session.
